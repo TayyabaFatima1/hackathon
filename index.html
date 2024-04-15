@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,23 +16,36 @@
 <body>
     <!-- navbar started -->
     <div class="bg-nav-hero">
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-          <img src="images/covid..png" alt="">
-        </a>
-  
-        <ul class="nav nav-pills gap-28px nav-links">
-          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Reports</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">centers</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">about</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">symptons</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
-        </ul>
-      </header>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <img src="images/covid..png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center d-flex align-items-lg-right justify-content-lg-end nav-link">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">centers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">symptons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">contact</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
     <!-- hero section started -->
     
     <div class="b-example-divider"></div>
@@ -91,6 +105,7 @@
       
     </div>
   </div>
+</div>
   <!-- part 3 started -->
   <div class="b-example-divider"></div>
 
@@ -100,9 +115,9 @@
         <img src="images/pexels-jep-gambardella-7689872 1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">What is coronavirus?</h1>
-        <p class="lead">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation <br> </p>
-        <ul class="bullet">
+        <h1 class="display-5 fw-bold h-1pt1 mb-3">What is coronavirus?</h1>
+        <p class="lead" style="color: #989898;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation <br> </p>
+        <ul class="bullet" style="color: #989898;">
           <li>Amet minim mollit non deserunt</li>
           <li>Deserunt ullamco est sit</li>
           <li>Velit officia consequat duis enim </li>
@@ -113,25 +128,7 @@
       </div>
     </div>
 
-    <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6 order-4">
-        <img src="images/pexels-jep-gambardella-7689872 1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">What is coronavirus?</h1>
-        <p class="lead">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation <br> </p>
-        <ul class="bullet">
-          <li>Amet minim mollit non deserunt</li>
-          <li>Deserunt ullamco est sit</li>
-          <li>Velit officia consequat duis enim </li>
-        </ul>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn pt3-btn btn-primary btn-lg px-4 me-md-2">learn More</button>
-        </div>
-      </div>
-    </div>
-  </div>
+    
 
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -139,10 +136,15 @@
         <img src="images/pexels-jep-gambardella-7689872 1 (1).png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+        <h1 class="display-5 fw-bold h1pt-3 mb-3">Why is it Dangerous?</h1>
+        <p class="lead" style="color: #989898;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation.</p>
+        <ul class="bullet2" style="color: #989898;">
+          <li>Amet minim mollit non deserunt</li>
+          <li>Deserunt ullamco est sit</li>
+          <li>Velit officia consequat duis enim </li>
+        </ul>
+         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn pt3-btn btn-primary btn-lg px-4 me-md-2">learn More</button>
         </div>
       </div>
     </div>
@@ -152,34 +154,34 @@
       <div class="col d-flex align-items-start">
         <img src="images/Mask Group.png" alt="">
         <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h4 class="fw-bold pt4-text mb-0">symptoms </h4>
+          <p class="pt4-text2">Amet minim mollit non</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
         <img src="images/Mask Group (1).png" alt="">
         <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h4 class="fw-bold pt4-text mb-0">protection</h4>
+          <p class="pt4-text2">Amet minim mollit non</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
           <img src="images/Mask Group (2).png" alt="">      
     <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h4 class="fw-bold pt4-text mb-0">security</h4>
+          <p class="pt4-text2">Amet minim mollit non</p>
         </div>
       </div>
       <div class="col d-flex align-items-start">
        <img src="images/Mask Group (3).png" alt="">
         <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
+          <h4 class="fw-bold pt4-text mb-0">treatment</h4>
+          <p class="pt4-text2">Amet minim mollit non</p>
         </div>
       </div>
       <!-- part 5 started -->
       
-      <div class="row justify-content-around row-gap-3 row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 py-5 bg-#F8F5FC  Stay " style="width: 50% ; top:25px ; margin-bottom: 25px; position: relative; background: #F8F5FC;">
+      <div class="container-fluid row justify-content-around row-gap-3 row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 py-5 bg-#F8F5FC  Stay " style="width: 50% ; top:25px ; margin-bottom: 25px; position: relative; background: #F8F5FC;">
 
         <div class=" col"style="top: 40px;position: relative; ">
             <div class="card border-0 px-4 ">
@@ -237,26 +239,87 @@
             </div>
         </div>
         </div>
-    <div class="col" style="width: 50%;background: #F8F5FC;">
-      <div class="card-body lh-base text-center text-sm-center text-md-center text-lg-start my-lg-5 ">
-          <h1 class=" card-title mt-4 fonnt fw-bold purplee"> How to prevernt Coronavirus?</h1>
-          <p class="card-text text-body-secondary fs-5 mt-3">Amet minim mollit non deserunt
+    <div class="col container-fluid" style="width: 50%;background: #F8F5FC;;
+    top: 100px;">
+      <div class="card-body lh-base text-center text-sm-center text-md-center text-lg-start my-lg-5 " style=" top: 100px; position: relative;
+      top: 100px;">
+          <h1 class=" card-title mt-4 fonnt fw-bold purplee" style="color: #6F42C1;"> How to prevernt Coronavirus?</h1>
+          <p class="card-text text-body-secondary fs-5 mt-3" style="color: #989898;">Amet minim mollit non deserunt
               ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
               mollit. Exercitation</p>
-          <p class="text-body-secondary">Amet minim mollit non deserunt ullamco est sit aliqua
+          <p class="text-body-secondary" style="color: #989898;">Amet minim mollit non deserunt ullamco est sit aliqua
               dolor do amet sint. </p>
-          <ul class="listing mb-4">
+          <ul class="listing mb-4" style="color: #989898;">
               <li class="text-body-secondary">Amet minim mollit non deserunt</li>
               <li class="text-body-secondary">Deserunt ullamco est sit</li>
               <li class="text-body-secondary">Velit officia consequat duis enim </li>
           </ul>
 
-          <button type="button" class="btn btn-dark fs-5 px-4 py-3 rounded-5 btn-custom border-0 purpleeed">read
+          <button type="button" class="btn btn-dark fs-5 px-4 py-3 rounded-5 btn-custom border-0 purpleeed" style="width: Hug (276.5px)px;
+          height: Hug (41.8px)px;
+          top: 519px;
+          left: 736px;
+          padding: 12.9px 32.25px 12.9px 32.25px;
+          gap: 20px;
+          border-radius: 25.8px;
+          opacity: 0px;background-color: #6F42C1;
+          ">read
               more about prevention</button>
 
       </div>
     </div>
-  
+    </div>
+     <!-- footer started  -->
+     
+     <footer class="bd-footer py-5 mt-5 bg-light">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-lg-3 mb-3">
+            <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+              <h5>About</h5>
+            </a>
+            <ul class="list-unstyled small text-muted">
+              <li class="mb-2" style="color: #989898;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit 
+                officia consequat duis enim velit mollit. </a>.</li>
+            </ul>
+            <div style="line-height: 2; justify-content: space-between;">
+            <i class="fa-brands fa-facebook" style="color: #145ddb;"></i>
+            <i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube" style="color: #ef2e2e;"></i>
+          </div>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="/">Symptoms</a></li>
+              <li class="mb-2"><a href="/docs/5.0/">Prevention</a></li>
+              <li class="mb-2"><a href="/docs/5.0/examples/">FAQs</a></li>
+              <li class="mb-2"><a href="https://themes.getbootstrap.com/">About Coronavirus</a></li>
+              <li class="mb-2"><a href="https://blog.getbootstrap.com/">About Coronavirus</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Helpful Linls</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Healthcare Professional</a></li>
+              <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">LGU Facilities</a></li>
+              <li class="mb-2"><a href="https://github.com/twbs/icons">Protect Your Family</a></li>
+              <li class="mb-2"><a href="https://github.com/twbs/rfs">World Health</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Resources</h5>
+            <ul class="list-unstyled footerlist">
+              <li class="mb-2"><a href="/docs/5.0/getting-started/">WHO Website</a></li>
+              <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">CDC Website</a></li>
+              <li class="mb-2"><a href="/docs/5.0/getting-started/webpack/">Gov Website</a></li>
+              <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">DOH Website</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     </footer>
 
 </body>
 </html>
