@@ -46,17 +46,14 @@ opacity: 0px;
 
 }
 .h2-pt2{
-    width: 338px;
-    height: 38px;
-    top: 63px;
-    left: 551px;
+  
     gap: 0px;
     opacity: 0px;
     font-family: Mulish;
     font-size: 30px;
     font-weight: 900;
     line-height: 37.65px;
-    text-align: left;
+   
     color: #6F42C1;        
 
 }
@@ -154,4 +151,12 @@ a{
 }
 .footerlist{
     color: #6F42C1;
+}
+.pt6-1{
+    list-style: url(images/check_green.png);
+    line-height: 3;
+}
+.pt6-2{
+    list-style: url(images/close_24px.png);
+    line-height: 3;
 }
