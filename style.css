@@ -160,3 +160,27 @@ a{
     list-style: url(images/close_24px.png);
     line-height: 3;
 }
+
+@media screen and (min-width:480px) and (max-width:760px) {
+    .img-of-protect{
+        position: absolute;
+        right: 280px;
+        top: 397rem;
+        width: 50%;
+    }
+    .cont1{
+        padding-top: 0px;
+    }
+    .corona-s{
+        bottom: 30px;
+        top: 90px;
+        position: relative;
+    }
+    .number{
+        align-items: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
