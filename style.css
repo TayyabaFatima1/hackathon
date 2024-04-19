@@ -161,7 +161,7 @@ a{
     line-height: 3;
 }
 
-@media screen and (min-width:480px) and (max-width:760px) {
+@media screen and (min-width:400px) and (max-width:760px) {
     .img-of-protect{
         position: absolute;
         right: 280px;
