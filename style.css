@@ -160,13 +160,76 @@ a{
     list-style: url(images/close_24px.png);
     line-height: 3;
 }
+.purple-section{
+    background-color: #F8F5FC;
+    margin-top: 5%;
+    padding-bottom: 60px;
+}
+.cards{
+    display: flex;
+}
+.card-padding-top{
+    padding-top: 10rem;
+}
+.card-body{
+    padding: 27px;
+}
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check-section h5 {
+    color: #6F42C1;
+    font-family: 'mulish';
+    font-size: 30px;
+    font-weight: 900;
+}
+.cards-para p {
+    max-width: 80%;
+    font-family: 'mulish';
+    font-size: 15px;
+    color: #808081;
+    font-weight: 500;
+}
+.check-signli{
+    list-style: url(images/check_circle.png);
+}
+.check-section p {
+    font-family: 'mulish';
+    font-size: 15px;
+    color: #808081;
+    font-weight: 500;
+}
+.card-btn {
+    padding: 10px 41px;
+    background-color: #6F42C1;
+    color: white;
+    border-radius: 25.8px;
+    text-transform: uppercase;
+    border: 1px solid #6F42C1;
+    font-family: 'mulish-light';
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.two-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 3rem; */
+    gap: 2rem;
+    margin-right: 4rem;
+}
 
-@media screen and (min-width:400px) and (max-width:760px) {
+@media screen and (min-width:300px) and (max-width:760px) {
     .img-of-protect{
         position: absolute;
         right: 280px;
-        top: 397rem;
-        width: 50%;
+        top: 200rem;
+        width: 200%;
+        height: 200px;
+        width: ;
     }
     .cont1{
         padding-top: 0px;
@@ -183,4 +246,56 @@ a{
         flex-wrap: wrap;
         flex-direction: column;
     }
+    
+    .prevernt{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        display: none;
+    }
+    .py-5{
+        padding: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .check-section{
+        margin-top: 2rem;
+    }
+    .cards-para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .check-sign {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .check-sign img {
+        width: 17px;
+        height: 17px;
+        margin-top: -20px;
+    }
+    .check-sign {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .c-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .check-section * {
+        text-align: center;
+    }
+    .cards-section {
+        flex-direction: column;
+    }
+    .cards {
+        flex-direction: column;
+        column-gap: 1rem;
+    }
+
 }
