@@ -223,41 +223,7 @@ a{
 }
 
 @media screen and (min-width:300px) and (max-width:760px) {
-    .img-of-protect{
-        position: absolute;
-        right: 280px;
-        top: 200rem;
-        width: 200%;
-        height: 200px;
-        width: ;
-    }
-    .cont1{
-        padding-top: 0px;
-    }
-    .corona-s{
-        bottom: 30px;
-        top: 90px;
-        position: relative;
-    }
-    .number{
-        align-items: center;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    
-    .prevernt{
-        position: relative;
-        width: 100%;
-        margin: auto;
-        display: none;
-    }
-    .py-5{
-        padding: 0%;
-        padding-top: 0%;
-        padding-bottom: 0%;
-    }
+  
     .check-section{
         margin-top: 2rem;
     }
